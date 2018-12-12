@@ -1,4 +1,4 @@
-pragma solidity ^0.4.25;
+ppragma solidity ^0.4.25;
 
 contract BlockchainDataInterchange {
     
@@ -7,9 +7,9 @@ contract BlockchainDataInterchange {
     
 	// declare the constructor to populate the ANSI mapping
     constructor() public {
-       ANSImap[201] = "<?xml version="1.0" encoding="UTF-8" standalone="yes" ?> <EDI> <type>Vehicle Shipping Order</type> </EDI>";
-       ANSImap[317] = "<?xml version="1.0" encoding="UTF-8" standalone="yes" ?> <EDI> <type>Delivery/Pickup Order</type> </EDI>";
-	   ANSImap[850] = "<?xml version="1.0" encoding="UTF-8" standalone="yes" ?> <EDI> <type>Purchase Order</type> </EDI>";
+       ANSImap[201] = "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\" ?> <EDI> <type>Vehicle Shipping Order</type> </EDI>";
+       ANSImap[317] = "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\" ?> <EDI> <type>Delivery/Pickup Order</type> </EDI>";
+	   ANSImap[850] = "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\" ?> <EDI> <type>Purchase Order</type> </EDI>";
     }
 
 	// This function takes the ANSI code and the address of the recipient
